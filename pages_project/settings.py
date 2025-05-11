@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-pp5&k&eg)^k(k5!94k^%7u2(4z!ui^rha%3n6vuinkydx#s(+*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# This setting specifies which host/domain names can be used to access the Django application.
+# The wildcard '*' allows any host to access the application, which is convenient for development
+# but should be restricted to specific domains in production for security reasons.
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
